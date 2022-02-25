@@ -390,27 +390,35 @@ p {
 /* ==== Slider Image Transition === */
 @keyframes Slick-FastSwipeIn {
   0% {
-    transform: rotate3d(0, 1, 0, 150deg) scale(0) perspective(400px);
-    -webkit-transform: rotate3d(0, 1, 0, 150deg) scale(0) perspective(400px);
-    -moz-transform: rotate3d(0, 1, 0, 150deg) scale(0) perspective(400px);
+    transform: scale(0) perspective(400px);
+    -webkit-transform: scale(0) perspective(400px);
+    -moz-transform: scale(0) perspective(400px);
+    -ms-transform: scale(0) perspective(400px);
+    -o-transform: scale(0) perspective(400px);
   }
   100% {
-    transform: rotate3d(0, 1, 0, 0deg) scale(1) perspective(400px);
-    -webkit-transform: rotate3d(0, 1, 0, 0deg) scale(1) perspective(400px);
-    -moz-transform: rotate3d(0, 1, 0, 0deg) scale(1) perspective(400px);
+    transform: scale(1) perspective(400px);
+    -webkit-transform: scale(1) perspective(400px);
+    -moz-transform: scale(1) perspective(400px);
+    -ms-transform: scale(1) perspective(400px);
+    -o-transform: scale(1) perspective(400px);
   }
 }
 
 @-webkit-keyframes Slick-FastSwipeIn {
   0% {
-    transform: rotate3d(0, 1, 0, 150deg) scale(0) perspective(400px);
-    -webkit-transform: rotate3d(0, 1, 0, 150deg) scale(0) perspective(400px);
-    -moz-transform: rotate3d(0, 1, 0, 150deg) scale(0) perspective(400px);
+    transform: scale(0) perspective(400px);
+    -webkit-transform: scale(0) perspective(400px);
+    -moz-transform: scale(0) perspective(400px);
+    -ms-transform: scale(0) perspective(400px);
+    -o-transform: scale(0) perspective(400px);
   }
   100% {
-    transform: rotate3d(0, 1, 0, 0deg) scale(1) perspective(400px);
-    -webkit-transform: rotate3d(0, 1, 0, 0deg) scale(1) perspective(400px);
-    -moz-transform: rotate3d(0, 1, 0, 0deg) scale(1) perspective(400px);
+    transform: scale(1) perspective(400px);
+    -webkit-transform: scale(1) perspective(400px);
+    -moz-transform: scale(1) perspective(400px);
+    -ms-transform: scale(1) perspective(400px);
+    -o-transform: scale(1) perspective(400px);
   }
 }
 
