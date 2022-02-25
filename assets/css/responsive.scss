@@ -1,0 +1,118 @@
+@media (min-width: 320px) and(max-width:575px){
+    .menu-shrink {
+        display: none;
+      }
+      .mean-container .mean-bar {
+        position: absolute;
+        z-index: 9999999;
+        background:transparent;
+        top:50px;
+      }
+      .btn.default_btn.bok_btn {
+        padding: 7px 0;
+        margin: 10px 20px 0 30px;
+        width: 46%;
+        font-size: 16px;
+      }
+      .header_area {
+        z-index: 999;
+        }
+      .mean-container a.meanmenu-reveal {
+          border: 1px solid #DB190A;
+          color: #DB190A ;
+          right: 3% !important;
+          top: -32px;
+      }
+      .mean-container a.meanmenu-reveal span {
+        background: #DB190A none repeat scroll 0 0;
+      }
+      .mean-last {
+        padding-bottom: 10px;
+        border-top: 1px solid rgba(255, 255, 255, 0.45);
+        
+        a{
+          text-align: center !important;
+          width: 60%;
+        }
+    }
+    .choose_area .choose_img {
+        margin-bottom: 40px;
+      }
+    .valuable_client_area .testim .wrap {
+        width: 100%;
+        padding: 40px 10px;
+      }
+    .footer_box {
+        margin-bottom: 40px;
+      }
+ 
+}
+@media (min-width: 576px) and(max-width:767px){
+  .menu-shrink {
+    display: none;
+  }
+  .mean-container .mean-bar {
+    position: absolute;
+    z-index: 9999999;
+    background:transparent;
+    top:50px;
+  }
+  .header_area {
+    z-index: 999;
+    }
+  .mean-container a.meanmenu-reveal {
+      border: 1px solid #DB190A ;
+      color: #DB190A ;
+      right: 3% !important;
+      top: -32px;
+  }
+  .mean-container a.meanmenu-reveal span {
+    background:#DB190A none repeat scroll 0 0;
+  }
+ 
+  .choose_area .choose_img {
+    margin-bottom: 40px;
+  }
+  .valuable_client_area .testim .wrap{
+    width: 100% !important;
+  }
+.footer_box {
+    margin-bottom: 40px;
+  }
+
+
+}
+@media (min-width: 768px) and(max-width:991px){
+  .menu-shrink {
+    display: none;
+  }
+  .mean-container .mean-bar {
+    position: absolute;
+    z-index: 9999999;
+    background:transparent;
+    top:50px;
+  }
+  .header_area {
+    z-index: 999;
+    }
+  .mean-container a.meanmenu-reveal {
+      border: 1px solid #DB190A ;
+      color: #DB190A;
+      right: 3% !important;
+      top: -32px;
+  }
+  .mean-container a.meanmenu-reveal span {
+    background: #DB190A none repeat scroll 0 0;
+  }
+
+
+
+}
+@media (min-width: 992px) and(max-width:1199px){
+  .menu-shrink {
+    display: none;
+  }
+
+ 
+
+}
