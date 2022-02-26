@@ -12,6 +12,10 @@
         $('.header_area').removeClass('menu-shrink animated slideInUp');
         }
     });
+    // data-background
+    $("[data-background]").each(function(){
+        $(this).css("background-image", "url("+ $(this).attr("data-background") + ")")
+        });
     // Aos Animation js
     AOS.init({
         offset: 100,

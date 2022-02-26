@@ -1034,4 +1034,117 @@ p {
   font-size: 30px;
   color: #080a31;
 }
+
+.inner_banner {
+  background-size: cover;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+
+.inner_banner .banner_content {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.inner_banner .banner_content h1 {
+  text-transform: capitalize;
+  font-size: 36px;
+  line-height: 1.7;
+}
+
+.contact_area .contact_ctn .con_ctn {
+  margin-bottom: 40px;
+}
+
+.contact_area .contact_ctn .con_ctn h4 {
+  font-size: 22px;
+  line-height: 1.7;
+}
+
+.contact_area .contact_ctn .con_ctn p {
+  font-weight: 600;
+  width: 70%;
+  margin: 0 auto;
+  color: #2b2b2b;
+}
+
+.contact_area .contact_ctn .con_form form .form-group {
+  margin-bottom: 15px;
+}
+
+.contact_area .contact_ctn .con_form form .form-group input {
+  height: 48px;
+  border: 1px solid #838080;
+}
+
+.contact_area .contact_ctn .con_form form .form-group input::-webkit-input-placeholder {
+  font-size: 14px;
+  color: #2b2b2b;
+  font-weight: 400;
+}
+
+.contact_area .contact_ctn .con_form form .form-group input:-ms-input-placeholder {
+  font-size: 14px;
+  color: #2b2b2b;
+  font-weight: 400;
+}
+
+.contact_area .contact_ctn .con_form form .form-group input::-ms-input-placeholder {
+  font-size: 14px;
+  color: #2b2b2b;
+  font-weight: 400;
+}
+
+.contact_area .contact_ctn .con_form form .form-group input::placeholder {
+  font-size: 14px;
+  color: #2b2b2b;
+  font-weight: 400;
+}
+
+.contact_area .contact_ctn .con_form form .form-group input:focus {
+  border: 1px solid #080a31;
+}
+
+.contact_area .contact_ctn .con_form form .form-group textarea {
+  border: 1px solid #838080;
+}
+
+.contact_area .contact_ctn .con_form form .form-group textarea::-webkit-input-placeholder {
+  font-size: 14px;
+  color: #2b2b2b;
+  font-weight: 400;
+}
+
+.contact_area .contact_ctn .con_form form .form-group textarea:-ms-input-placeholder {
+  font-size: 14px;
+  color: #2b2b2b;
+  font-weight: 400;
+}
+
+.contact_area .contact_ctn .con_form form .form-group textarea::-ms-input-placeholder {
+  font-size: 14px;
+  color: #2b2b2b;
+  font-weight: 400;
+}
+
+.contact_area .contact_ctn .con_form form .form-group textarea::placeholder {
+  font-size: 14px;
+  color: #2b2b2b;
+  font-weight: 400;
+}
+
+.contact_area .contact_ctn .con_form form .form-group textarea:focus {
+  border: 1px solid #080a31;
+}
+
+.contact_area .contact_ctn .con_form .con_btn {
+  margin-top: 40px;
+}
 /*# sourceMappingURL=style.css.map */
