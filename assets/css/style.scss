@@ -228,7 +228,9 @@ p{
         border: 2px solid;
         transition: all 0.6s ease;
         border-radius: 2px;
-    }
+        -webkit-transition: all 0.6s ease;
+        -moz-transition: all 0.6s ease;
+}
     &::after {
         bottom: 0;
         right: 0;
@@ -1388,3 +1390,85 @@ p{
   }
 }
 // Contact Area CSS End
+// More Info Source Area CSS Start
+.more_info_source_area{
+  .more_info_box{
+    .more_info_titel{
+      margin-bottom: 60px;
+      span{
+        font-size: 16px;
+        line-height: 1.7;
+        color:#2b2b2b;
+        font-weight: 400;
+      }
+      h2{
+        width: 80%;
+        font-size: 34px;
+        line-height: 1.5;
+        color:$colour_1;
+        font-weight: 700;
+        margin: 0 auto;
+      }
+    }
+  }
+  .info_box{
+    position: relative;
+    padding: 40px 20px;
+    box-shadow: 0 10px 35px rgba(38,42,76,.1);
+    .box_icon{
+      margin-bottom: 15px;
+      span{
+        i{
+          font-size: 26px;
+          color: $colour_1;
+        }
+      }
+    }
+    .box_titel{
+      margin-bottom: 15px;
+      h5{
+        font-size: 18px;
+        line-height: 1.5;
+        color:$colour_1;
+        font-weight: 700;
+      }
+    }
+    .box_text{
+      margin-bottom: 15px;
+      p{
+        font-size: 14px;
+        line-height: 1.5;
+        color:#2b2b2b;
+      }
+    }
+    .read_mo{
+      .btn{
+        text-transform: capitalize;
+        color: $colour_1;
+        font-size: 14px;
+        font-weight: 600;
+        &:hover{
+          color: $colour_2;
+        }
+      }
+    }
+    &::after{
+      content: '';
+      position: absolute;
+      width: 0%;
+      height: 4px;
+      left: 0;
+      bottom: 0;
+      background: $colour_1;
+      transition:all 0.6s ease;
+      -webkit-transition:all 0.6s ease;
+      -moz-transition:all 0.6s ease;
+    }
+    &:hover{
+      &::after{
+        width:100%;
+      }
+    }
+  }
+}
+// More Info Source Area CSS End 
