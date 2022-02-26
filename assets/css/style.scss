@@ -1392,6 +1392,11 @@ p{
 // Contact Area CSS End
 // More Info Source Area CSS Start
 .more_info_source_area{
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
   .more_info_box{
     .more_info_titel{
       margin-bottom: 60px;
