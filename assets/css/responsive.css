@@ -96,7 +96,7 @@
   .our_story_area .stp_6::after,
   .our_story_area .stp_8::after,
   .our_story_area .stp_9::after {
-    right: -8%;
+    right: -7%;
   }
   .our_story_area .stp_2::before,
   .our_story_area .stp_4::before,
@@ -225,6 +225,13 @@
   .our_story_area .section_titel h2::after {
     left: 27%;
   }
+  .our_story_area .stp_2::after,
+  .our_story_area .stp_4::after,
+  .our_story_area .stp_6::after,
+  .our_story_area .stp_8::after,
+  .our_story_area .stp_9::after {
+    right: -3%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -296,7 +303,7 @@
   .our_story_area .stp_6::after,
   .our_story_area .stp_8::after,
   .our_story_area .stp_9::after {
-    right: -6%;
+    right: -2%;
   }
   .product_area .section_titel h2::before,
   .our_story_area .section_titel h2::before {
@@ -311,9 +318,6 @@
 @media (min-width: 992px) and (max-width: 1199px) {
   .menu-shrink {
     display: none;
-  }
-  .our_story_area .stp_10 {
-    margin-top: 90px !important;
   }
   .product_area .section_titel h2::before,
   .our_story_area .section_titel h2::before {
